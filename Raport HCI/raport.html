@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="raport.css">
+    <title>Hidden Box</title>
+</head>
+
+<body prefix="schema: http://schema.org/ xsd: http://www.w3.org/2001/XMLSchema# sa: https://ns.science.ai/">
+    <article resource="#" typeof="schema:ScholarlyArticle">
+        <header>
+            <h1>HIDDEN BOX Game</h1>
+        </header>
+        <section typeof="sa:AuthorsList">
+            <h2>Proiect realizat de:</h2>
+
+            <ul>
+                <li typeof="sa:ContributorRole" property="schema:author">
+                    <span typeof="schema:Person">
+                <meta property="schema:givenName" content="Erdem">
+                <meta property="schema:familyName" content="Yildirim">
+                <span property="schema:name">Yildirim Erdem</span>
+                    </span>
+
+                    <ul>
+                        <li property="schema:roleContactPoint" typeof="schema:ContactPoint">
+                            <a href="yildirimerdem360@gmail.com" property="schema:email">yildirimerdem360@gmail.com</a>
+                        </li>
+
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section typeof="sa:Abstract" id="abstract" role="doc-abstract">
+            <h2>Abstract</h2>
+            <p>
+                HIDDEN BOX is an "Arcade" game that helps players get rid of stress and relax because this type of game when played makes the player enter a virtual world and focus all your attention on the game.
+                This is a game with a geometry cube with dangerous enemies and challenging obstacles. Players feel their reflexes to jump and run at the right times to get rid of enemies attacks.
+            </p>
+        </section>
+        <section id="Introduction" role="doc-introduction">
+            <h2>1.Introduction</h2>
+            <h3>1.1 Report Details</h3>
+
+            <p> 
+                This document represents the HIDDEN BOX Game report. The document is encoded in UTF-8 and transmitted with a text / html media type.
+                Capul conține elementul "meta charset="utf-8" " și un element title. Raportul este realizat pe baza template-ului.
+             </p>
+
+            <h3>1.2 Purpose and scope of the project </h3>
+            <p>The theme of the application is related to the presentation of notions in the field of "Human-COMPUTER Interaction". The HIDDEN BOX game is made in such a way that the user can play quite easily , handy and be able to navigate the application fairly quickly with the help of icons that are used significantly.</p>
+
+        </section>
+        <section typeof="sa:MaterialsAndMethods">
+            <h2>2.Overview</h2>
+            <h3>2.1 Application features</h3>
+            <p>The game offers the following features:</p>
+            <ul>
+                <li>Main Page "Home";</li>
+                <li>"Shop" Page;</li>
+                <li>"Leaderboards" Page;</li>
+                <li>"Play" Page;</li>
+
+            </ul>
+            <h3>2.2 User classes and features </h3>
+            <p>Users is of one category (we have no authenticated users): Whoever installs the game will be able to play. </p>
+
+            <h3>2.3 Operating environment</h3>
+            <p>The game is accessible to any device that has the "App Store" or "Google Play" available and an internet connection to install the game. After the game is installed , no need for internet , it can also be played offline.</p>
+            
+            <h3>2.4 Design and implementation constraints</h3>
+            <p>The game will be made without design and implementation constraints.</p>
+
+            <h3>2.5 User documentation</h3>
+            <p>The first page the user accesses is the "Home" page where he will meet the first page of the game which is roughly a summary of the game. </p>
+            <p>In Home Page , at the bottom we have 4 buttons grouped in two parts. On the left we have 3 buttons: "Buy", "Leaderboards" and "Settings" and on the right we have a single button , the "Play" button that will allow the user to start the game when pressed. </p> <hr>
+
+            <h3>2.6 Assumptions and dependencies</h3>
+            <p>The game is based on a client-server interaction. The user accesses the game facilities through the interface, and the server makes sure to respond correctly to client requests and stores user information in a database. (Total Attemp , Total Distance , Record Distance).</p>
+            
+        </section>
+        <section typeof="sa:MaterialsAndMethods">
+            <h2>3.Description Interface</h2>
+            <h3>3.1 Design </h3>
+
+            <p>The game is designed for people who are 5+ years old , who want to play arcade games , action. The pages of the game are dominated by colors: pink, black, white, yellow and orange , being used also geometric figures such as: square, rectangle, cylinder.
+            </p>
+
+            <p>
+                The "Home" page has a black and pink background (more precisely, the color starts from light black and goes to pink). This combination of colors when losing causes the player to start over , to try and play as much as possible because it makes him feel like he's in a dangerous area anyway.
+                The main page design is also a summary of the game , in which we have a ghost that attacks the player when you see him with your eyes open but player can hide which also means the title of the game by its name "Hidden Box".
+                The purpose of this page is to make any guest enter the game to be attracted to its content and to try the facilities of the game. <br>
+            </p>
+
+            <p>
+                Between the title of the game and the information about "Best Record" and "Cube Points" we have a cube design that separates the two parts. This cube design also symbolizes the game itself because the main element in the game is the cube figure.
+            </p>
+
+            <p>
+                The title of the game "Hidden Box" is made with a color starting with the letter "H" having a white color and it gets darker and darker , which ends in black , a color that is dark and by its name "Hidden" it means that it can also hide.
+            </p>
+
+            Best Record information is the record distance he managed to cover in "one hand" game and "Cube Points" is the Box score which is given depending on how far it has covered at every game (if he has covered a long distance, a high score is given or if he has covered a short distance, a lower score is given) which this score helps the player to buy from the "Buy" page power-ups for his defense against the enemies.
+
+            <p>
+                Also the "Best Record" icon which is a gold medal, it is chosen in such a way as to signify that it is in fact the best score and also associate with the background color.
+            </p>
+
+            <p>
+                The "Cube Points" icon is black and yellow because it means it's the black box of the game and is yellow because it means "Points". It is thought to be in combination with this yellow color as it illustrates that it comes in a way from the color of the "Coin" which is in most games.
+            </p>
+
+            <p>
+                When we open one of the "Buy", "Leaderboards" or "Settings" pages we have a slightly different background than the home page but these 3 pages have the same background. We have the same initial background as the main page , only what makes it different is that we also have a white section pasted above the original background which makes the user feel that these are different pages from the main one.
+
+            </p>
+
+            <h3>3.2 Technologies used for design </h3>
+
+            <ul>
+                <li>Lunacy</li>
+            </ul>
+
+            <h3>3.3 System features </h3>
+            <ol>
+                <li>
+                    <h4>Main Page : "Home" </h4>
+                </li>
+
+                <div style="text-align: center;"><img src="../Raport HCI/Images/phoneMainPage.png" width="720" height="320" alt="image"></div>
+
+                <p> On the right side of the "Home" page there is a text with "Best Record" and a text with "Cube Points" of the player who can understand almost from the first what they are because when he first opens the game will have "Best Record: 0 meters" and "Cube Points: 0 points" . The information with "Best Record" and the information with "Cube Points" can also be found on the "Leaderboards" page and on the "Buy" page but this is one of the most important information is also put on the main page to help the player not to enter every time he plays a "hand" game to check the record or possibly how many points it has on the "Buy" page. This notion is important on the one hand and for "Human-Computer Interaction (User)".
+                </p>
+
+                <p>A user can use the 3 buttons on the bottom left. In which one of them is to buy power-up that will help him stay as long as possible in life , one to find out information about him (how many times he died, how many meters he traveled, etc.) and one about settings.
+                </p>
+
+                <li>
+                    <h4>"Buy" Page </h4>
+                </li>
+
+                <div style="text-align: center;"><img src="../Raport HCI/Images/phoneBuyPage.PNG" width="720" height="320" alt="image"></div>
+
+                <p>
+                    In the "Buy" page, at the top we have the total score of the player and in the center of the page we have the 4 power-ups that we can buy depending on how many points we have. Above each power-up we have the names of the power-ups and under each power-up we have the price of each and the number of pieces at each power-up.
+                </p>
+
+                <li>
+                    <h4>"Leaderboards" Page </h4>
+                </li>
+
+                <div style="text-align: center;"><img src="../Raport HCI/Images/phoneLeaderboards.png" width="720" height="320" alt="image"></div>
+
+                <p>
+                    In the Leaderboards page we have additional information besides the "Best Record" which is also on the main page , like: "Total Attemp" and "Total Distance".
+                </p>
+
+                <li>
+                    <h4>"Settings" Page </h4>
+                </li>
+
+                <div style="text-align: center;"><img src="../Raport HCI/Images/phoneSettings.png" width="720" height="320" alt="image"></div>
+
+                <p>
+                    In the settings page we have 2 "Toggle" buttons in which one is for "Music" and one for "Sound". The first "Toggle" button with "Music" is to control the music of the game (to close and open game music) and the other "Toggle" button is to mute when the game starts and begins to attack the enemy or when we jump. Below the "Toggle" buttons we have the "Control Type" button for choosing the location of the direction buttons and jumped while playing the game and under the "Control Type" button we also have the choice of the language in which by-default it is in English.
+                </p>
+
+                <li>
+                    <h4>"Play" Page </h4>
+                </li>
+
+                <div style="text-align: center;"><img src="../Raport HCI/Images/phonePlayPage.png" width="720" height="320" alt="resim"></div>
+
+                <p>
+                    In the play page we have on the top left the current distance it has covered since the game started. On the left we have the 4 power-ups that are placed one below the other so as not to disturb visually when the player is playing and be closer to his "Thumb" finger because he needs to be fast enough to press power-ups when attacking the enemies. The location of the power-ups also offers a fairly high comfort of the player.
+                </p>
+
+                <p>
+                    At the bottom of the Play page by-default we have the direction control button on the left (to go left or right) and on the right we have the button to jump to avoid obstacles.
+                </p>
+
+                <p>
+                    In the Play page we also have a "Pause" button in the upper right corner when the player no longer wants to play and wants to go out or wants to stop the game for a while.
+                    When the player presses the pause button, 2 buttons will appear. When the player presses the "Pause" button will appear 2 buttons, button on the left , which has an icon with "a house" will take him to the main page "Home" and the other button which is on the right and which has an icon with "a triangle" , when player press it, will be able to continue the game from where he remained.
+                </p>
+
+            </ol>
+        
+        </section>
+        <section typeof="sa:MaterialsAndMethods">
+            <h2>4.Wireframe</h2>
+
+            <h4>1. Main Page Wireframe </h4>
+
+            <div style="text-align: center;"><img src="../Raport HCI/Images/phoneMainPageWireframe.PNG" width="720" height="320" alt="image"></div>
+
+            <h4>2. Play Page Wireframe</h4>
+
+            <div style="text-align: center;"><img src="../Raport HCI/Images/phonePlayPageWireframe.PNG" width="720" height="320" alt="image"></div>
+
+            <p>
+                 
+            </p>
+
+            <h4>3. Buy Page Wireframe </h4>
+
+            <div style="text-align: center;"><img src="../Raport HCI/Images/phoneBuyPageWireframe.PNG" width="720" height="320" alt="image"></div>
+
+            <h4>4. Leaderboards Page Wireframe </h4>
+
+            <div style="text-align: center;"><img src="../Raport HCI/Images/phoneLeaderboardsWireframe.png" width="720" height="320" alt="image"></div>
+
+            <h4> 5. Settings Page Wireframe </h4>
+
+            <div style="text-align: center;"><img src="../Raport HCI/Images/phoneSettingsWireframe.png" width="720" height="320" alt="image"></div>
+
+        </section>
+        <section typeof="sa:MaterialsAndMethods" id="Question-Options-Criteria">
+            <h2>
+                5.Question-Options-Criteria
+            </h2>
+            <ul>
+                <h4>1.Home page Question-Options-Criteria </h4>
+                <div style="text-align: center;"><img src="../TEMA HCI/Question-Option-Criteria 1.PNG" width="780" height="200" alt="image"></div>
+                
+                <h4>2.Control button Question-Options-Criteria</h4>
+                <div style="text-align: center;"><img src="../TEMA HCI/Question-Options-Criteria 2.PNG" width="780" height="200" alt="image"></div>
+                
+                <h4>3.Power-Ups Question-Options-Criteria</h4>
+                <div style="text-align: center;"><img src="../TEMA HCI/Question-Options-Criteria 3.PNG" width="780" height="200" alt="image"></div>
+                
+            </ul>
+        </section>
+    </article>
+</body>
+
+</html>
